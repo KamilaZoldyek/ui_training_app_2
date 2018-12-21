@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/forest"
+        android:src="@drawable/forest3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,21 +38,55 @@
             android:layout_height="wrap_content"
             android:fontFamily="serif-monospace"
 
-            android:text="FOREST"
+            android:text="WELCOME"
             android:textColor="@color/white"
             android:textSize="45sp" />
 
-        <Button
-            android:id="@+id/signIN"
-            android:layout_width="200dp"
+        <EditText
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:background="@drawable/button_bg"
-            android:text="s i g n     i n"
-            android:textColor="@color/white"
-            android:textSize="15sp"
+            android:hint="USERNAME"
             android:layout_marginTop="85dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:padding="10dp"/>
 
-            />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:hint="PASSWORD"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:hint="CONFIRM PASSWORD"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:padding="10dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:textSize="18sp"
+            android:width="200dp"
+            android:padding="10dp"
+            android:buttonTint="@color/white"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I AGREE WITH THE TERMS OF USE" />
+
+
+
 
 
         <Button
@@ -63,17 +94,16 @@
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:background="@drawable/button_bg"
-            android:text="s i g n     u p"
+            android:text="s i g n   u p"
             android:textColor="@color/white"
             android:textSize="15sp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="35dp"
             android:layout_marginBottom="100dp"
             />
 
 
+
     </LinearLayout>
-
-
 
 
 </android.support.constraint.ConstraintLayout>
