@@ -47,9 +47,10 @@
             android:layout_height="wrap_content"
             android:background="@drawable/button_bg"
             android:hint="USERNAME"
+            android:inputType="textPersonName"
             android:layout_marginTop="85dp"
             android:textColor="@color/white"
-            android:textSize="18sp"
+            android:textSize="13sp"
             android:padding="10dp"/>
 
         <EditText
@@ -57,9 +58,10 @@
             android:layout_height="wrap_content"
             android:background="@drawable/button_bg"
             android:hint="PASSWORD"
+            android:inputType="textPassword"
             android:layout_marginTop="15dp"
             android:textColor="@color/white"
-            android:textSize="18sp"
+            android:textSize="13sp"
             android:padding="10dp"/>
 
 

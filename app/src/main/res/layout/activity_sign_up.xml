@@ -47,34 +47,37 @@
             android:layout_height="wrap_content"
             android:background="@drawable/button_bg"
             android:hint="USERNAME"
-            android:layout_marginTop="85dp"
+            android:inputType="textPersonName"
+            android:layout_marginTop="65dp"
             android:textColor="@color/white"
-            android:textSize="18sp"
+            android:textSize="13sp"
             android:padding="10dp"/>
 
         <EditText
             android:layout_width="250dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:background="@drawable/button_bg"
             android:hint="PASSWORD"
-            android:layout_marginTop="15dp"
+            android:inputType="textPassword"
+            android:padding="10dp"
             android:textColor="@color/white"
-            android:textSize="18sp"
-            android:padding="10dp"/>
+            android:textSize="13sp" />
 
         <EditText
             android:layout_width="250dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:background="@drawable/button_bg"
             android:hint="CONFIRM PASSWORD"
-            android:layout_marginTop="15dp"
+            android:inputType="textPassword"
+            android:padding="10dp"
             android:textColor="@color/white"
-            android:textSize="18sp"
-            android:padding="10dp"/>
+            android:textSize="13sp" />
 
         <CheckBox
             android:id="@+id/checkBox"
-            android:textSize="18sp"
+            android:textSize="13sp"
             android:width="200dp"
             android:padding="10dp"
             android:buttonTint="@color/white"
@@ -83,7 +86,7 @@
             android:layout_margin="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="I AGREE WITH THE TERMS OF USE" />
+            android:text="I AGREE WITH THE TERMS" />
 
 
 
@@ -97,8 +100,8 @@
             android:text="s i g n   u p"
             android:textColor="@color/white"
             android:textSize="15sp"
-            android:layout_marginTop="35dp"
-            android:layout_marginBottom="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="50dp"
             />
 
 
